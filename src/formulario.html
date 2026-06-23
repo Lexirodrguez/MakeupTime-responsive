@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suscripción</title>
+</head>
+<body>
+
+<header>
+    <h1>MakeupTime</h1>
+    <nav>
+        
+        <label for="menu_hamburguesa" class="label_hamburguesa">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30px" height="30px" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+            </svg>
+        </label>
+
+        <input type="checkbox" id="menu_hamburguesa" class="menu_hamburguesa">
+
+        <ul>
+                 <li><a href="index.html">Home</a></li>
+                 <li><a href="Tendencias.html">Tendencias</a></li>
+                 <li><a href="Dupes.html">Dupes</a></li>
+                 <li><a href="formulario.html">Suscripción</a></li>
+        </ul>         
+    </nav>
+</header>
+
+<main class="suscripcion">
+    <section class="suscripcion_logo">
+     <img src="maquillaje.png" alt="logo">
+    </section>
+     
+    <section class="suscripcion_formulario">
+    <h2>Suscríbete para recibir todas las actualizaciones de la información de nuestro sitio web</h2>
+
+    <form id="formulariosuscripcion">
+        
+        <input type="text" id="nombre" placeholder="Nombre y Apellido" required />
+        <input type="email" id="correo" placeholder="Correo electrónico" required />
+        <button type="submit">Suscribirse</button>
+
+    </form>
+    </section>
+</main>
+
+<section>
+    <h2>Usuarios Suscritos:</h2>
+    <table id="suscritos">
+                <tr>
+                    <th>Nombre y  Apellido</th>
+                    <th>Correo Electrónico</th>
+                </tr>
+                <tbody id="bodytabla"></tbody>
+            </table>
+</section>
+
+
+</body>
+<footer><h6 style="text-align: center;"><i>© 2026 Leximar Rodriguez. Todos los derechos reservados.</i></h6></footer>
+</html>
