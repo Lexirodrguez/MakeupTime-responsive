@@ -1,0 +1,22 @@
+Requisitos de instalacion:
+
+Node.js
+npm (incluido automáticamente con Node.js)
+
+Instalación y Configuración del Proyecto:
+
+
+Clonar o descargar los archivos del proyecto desde github.
+Abrir la terminal en la raíz del proyecto.
+Instalar todas las dependencias de desarrollo usando:
+
+npm install
+
+Ejecución:
+
+1. Entorno de Desarrollo
+Para levantar el servidor local y ver la página en tiempo real, ejecuta:
+
+npm start
+
+2. Comienza a explorar la pagina!
